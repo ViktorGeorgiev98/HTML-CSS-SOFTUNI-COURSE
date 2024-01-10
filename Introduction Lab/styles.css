@@ -1,0 +1,20 @@
+h1 {
+    font-size: 50px;
+}
+
+.first {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+#second{
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+
+div{
+    color: red;
+    font-family: "Gill Sans", sans-serif;
+}
