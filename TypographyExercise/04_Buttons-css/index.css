@@ -1,0 +1,29 @@
+button, a {
+    cursor: pointer;
+    outline: none;
+    background-color: white(rgb(251, 251, 251));
+    color: black 
+}
+
+@import 'https://use.fontawesome.com/releases/v5.6.3/css/all.css';
+
+body {
+    font-family: 'FontAwesome', sans-serif;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.fill {
+    color: gray(rgb(51, 51, 51)) !important;   
+}
+
+.hover {
+    background-color: gray(rgb(51, 51, 51)) !important;   
+}
+

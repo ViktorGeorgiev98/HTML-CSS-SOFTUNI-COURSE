@@ -1,0 +1,21 @@
+body {
+    font-family: Raleway, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    border-style: double;
+    border-width: 10px;
+    border: 5px solid black;
+    border-spacing: 5px;
+    max-width: 75%;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin: 0; /* Remove default margin */
+    margin-left: 200px;
+}
+
+h2 {
+    font-family: Great Vibes, cursive;
+    line-height: 1.2;
+    font-weight: bold;
+    font-style: italic;
+}
