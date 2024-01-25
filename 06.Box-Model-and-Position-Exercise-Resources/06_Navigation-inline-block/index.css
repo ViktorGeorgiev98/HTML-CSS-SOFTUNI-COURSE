@@ -1,0 +1,25 @@
+body {
+    font-family: "Helvetica", sans-serif;
+}
+
+header {
+    font-weight: bold;
+    font-size: 30px;
+    li {
+        font-size: 20px;
+    }
+    border-bottom: 3px solid black;
+    align-items: center;
+}
+
+nav {
+    li {
+        display: inline-block;
+        align-items: center;
+        
+    }
+}
+
+p {
+    font-style: italic;
+}
