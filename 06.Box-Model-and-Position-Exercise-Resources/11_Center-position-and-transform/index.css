@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(238, 238, 238);
+    border-radius: 4px;
+   
+    
+
+.card {
+    border-radius: 4px;
+    width: 500px;
+    align-items: center;
+   
+    background-color: rgb(255, 255, 255);
+    a {
+        background-color: rgb(0, 153, 0);
+    }
+    h2 {
+        font-family: "Georgia", serif;
+        font-size: 1em;
+    }
+    img {
+        /* position: absolute; */
+    }
+}

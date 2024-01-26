@@ -1,0 +1,16 @@
+ul {
+   
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    border-radius: 50%;
+}
+
+a:hover {
+    background-color: darkgrey;
+}
