@@ -1,0 +1,11 @@
+section {
+    display: block;
+    align-items: center;
+    
+    /* position: absolute; */
+}
+
+body {
+    align-items: center;
+    display: block;
+}
