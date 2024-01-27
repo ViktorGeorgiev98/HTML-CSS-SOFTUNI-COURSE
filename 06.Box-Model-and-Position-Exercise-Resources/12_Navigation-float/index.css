@@ -1,0 +1,15 @@
+
+
+
+.header {
+    border-bottom: 5px solid black;
+}
+
+.header p,
+.header ul {
+    display:inline-block
+}
+
+.header ul li {
+    display: inline-block;
+}

@@ -1,63 +1,68 @@
 body {
-    font-family: "Helvetica", sans-serif;
-    background-color: rgb(238, 238, 238);
-    color: rgb(51, 51, 51);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .container {
-    display: flex;
-    margin-top: 30px; /* Adjust margin as needed */
-  }
-  
-  article {
-    flex: 1;
-    max-width: 700px; /* Adjust the maximum width as needed */
-    margin-right: 30px;
-  }
-  
-  article header {
-    font-weight: bold;
-    font-size: 30px;
-  }
-  
-  article p,
-  article section p,
-  article ul,
-  article li,
-  article footer {
-    font-style: italic;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
-    margin-top: 3px;
-    margin-bottom: 3px;
-  }
-  
-  article ul {
-    margin-top: 3px;
-    margin-bottom: 3px;
-    padding: 3px 0 3px 0;
-  }
-  
-  article li {
-    padding-top: 5px;
-    margin-top: 5px;
-  }
-  
-  aside {
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: 30px;
-  }
-  
-  aside a {
-    font-style: italic;
-    font-weight: 400;
-    font-size: 18px;
-    display: block;
-    margin-top: 5px;
-  }
-  
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(238, 238, 238);
+}
+
+p {
+  color: rgb(51, 51, 51);
+  max-width: 800px;
+}
+
+ul {
+  max-width: 800px;
+}
+
+.container {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 100px;
+  padding-left: 100px;
+  /* position: relative; */
+  /* vertical-align: top; */
+}
+.container article, aside {
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px;
+  margin: 5px;
+}
+
+aside {
+  max-width: 60%;
+  position: absolute;
+  padding: 30px 0 0 -10px;
+  margin: 30px 0 0 -10px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  /* top: 0; */
+  /* right: 0; */
+}
+
+aside ul li {
+  font-size: 16px;
+}
+
+article section ul:first-child {
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+
+article header h1 {
+  font-style: italic;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+article section ul li {
+  line-height: 20px;
+  font-size: 16px;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+}
