@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 15vw;
+    height: 35rem;
+    display: flex;
+    margin: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.container span {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.eleven {
+    order: -11;
+}
+
+.second {
+    order: -10;
+}
+
+.twelve {
+    order: -9;
+}
+.fourth {
+    order: -8;
+}
+.eight {
+    order: -7;
+}
+.nine {
+    order: -6;
+}
+.six {
+    order: -5;
+}
+.five {
+    order: -4;
+}
