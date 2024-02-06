@@ -1,0 +1,25 @@
+@media screen {
+    body {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+
+
+@media screen and (max-width: 400px) {
+    body {
+        font-size: 13px;
+    }
+}
