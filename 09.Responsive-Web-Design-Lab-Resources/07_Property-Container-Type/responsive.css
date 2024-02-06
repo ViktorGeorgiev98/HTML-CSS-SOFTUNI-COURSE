@@ -1,0 +1,10 @@
+.card h2 {
+  font-size: 1em;
+}
+
+
+@media (max-width: 600px) {
+  .post {
+    container-type: inline-size; /* Set .post element to inline size */
+  }
+}
