@@ -43,7 +43,7 @@ h3 {
 }
 
 header {
-    flex: 1 0 100%;
+    flex: 0 0 100%;
     border-bottom: 5px solid black;
     display: flex;
     justify-content: space-between;
@@ -104,3 +104,44 @@ blockquote .align-right {
     padding-left: 1em;
     border-left: 1 px solid #ccc;
 }
+
+
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 500) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 800px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1800px) and (min-width: 1300px) {
+    body {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    body {
+        font-size: 23px;
+    }
+}
+
+
+
+
