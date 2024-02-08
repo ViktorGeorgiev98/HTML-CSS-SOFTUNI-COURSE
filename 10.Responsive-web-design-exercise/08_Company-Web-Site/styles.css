@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  header {
+    flex: 0 0 100%;
+  }
+  nav { 
+    flex: 0 0 100%;
+  }
+  footer {
+    flex: 0 0 100%;
+  }
+  main {
+    flex: 1 0 30%;
+  }
+  aside {
+    flex: 0 0 auto;
+  }
+  /* width: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  nav { 
+    flex: 0 0 100%;
+  }
+  footer {
+    flex: 0 0 100%;
+  }
+
+  main {
+    flex: 0 1 40%;
+  }
+
+  aside {
+    flex: 1 0 auto;
+  }
+/* TODO
+
+CSS Grid. Display grid. 
+Define the grid areas. 
+Create two unequal columns that sits next to each other 
+*/
+}
+
+/* TODO Reference the grid area */
+/* TODO Reference the grid area */
+/* TODO Reference the grid area */
+/* TODO Reference the grid area */
+/* TODO Reference the grid area */
+
+body {
+/* TODO style the body*/
+  margin: 0px;
+  font-family: "Arial";
+}
+
+header { 
+/* TODO style the header */
+    text-align: center;
+    padding: 60px;
+    background-color: #1abc9c;
+    color: white;
+}
+
+nav {
+/* TODO style the navigation bar*/
+ background-color: #333;
+ padding: 14px 26px 14px 26px;
+}
+
+nav a {
+/* TODO style the navigation bar links*/
+color: white;
+padding: 14px 20px 14px 20px;
+}
+
+aside {
+  background-color: #f1f1f1;
+  padding: 20px;
+/* TODO style the sidebar*/
+}
+
+main {
+  background-color: white;
+  padding: 20px
+/* TODO style the main*/
+}
+
+footer{
+  text-align: center;
+  padding: 20px;
+  background-color: #ddd;
+/* TODO style the footer*/
+}
+
+/* TODO Responsive layout - when the screen is less than 700px wide, 
+make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  body {
+    display: block;
+
+  }
+
+  nav a{
+    display: block;
+    text-align: center;
+  }
+}
+/* TODO Responsive layout - If the screen is smaller than 700px, 
+display the navigation bar links as block and center the text */
+

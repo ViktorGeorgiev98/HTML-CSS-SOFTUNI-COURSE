@@ -43,7 +43,7 @@ h3 {
 }
 
 header {
-    flex: 0 0 100%;
+    flex: 1 0 100%;
     border-bottom: 5px solid black;
     display: flex;
     justify-content: space-between;
