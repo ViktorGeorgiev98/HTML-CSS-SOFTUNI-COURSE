@@ -1,0 +1,8 @@
+@media (max-width: 600px) {
+
+    .game-world-header.container.placeholder {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    } 
+}
