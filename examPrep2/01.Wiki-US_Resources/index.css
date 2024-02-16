@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Agbalumo";
+}
+
+body {
+    margin: 2em;
+    min-height: 100vh;
+}
+
+img {
+    display: block;
+    height: 100%;
+    width: auto;
+}
+
+img {
+    height: 220px;
+    width: 350px;
+    
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1000px;
+    /* min-height: 800px; */
+    border: 3px solid black;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+header {
+    padding: 1em 1em 0 1em;
+    background-color: rgb(192, 231, 229);
+    h1 {
+        text-align: center;
+        border-bottom: 2px solid black;
+    }
+    h4 {
+        text-align: center;
+        border-bottom: 2px solid black;
+        font-size: 22px;
+    }
+}
+
+article {
+    display: flex;
+}
+
+.article-content {
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 2em;
+    padding: 2em 1em 2em 1em;
+    align-items: center;
+}
+
+.article-content-left {
+    flex: 0 0 400px;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        text-indent: 17px;
+        font-size: 17px;
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+
+.article-content-right {
+    flex: 1 1 auto;
+    p {
+        line-height: 1.6;
+        text-indent: 20px;
+        font-size: 19px;
+        margin-bottom: 15px;
+    }
+}
+
+.facts {
+    background-color: black;
+    color: white;
+    width: 40%;
+    text-align: center;
+    height: 35px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+footer {
+    background-color: rgb(192, 231, 229);;
+    height: auto;
+}
+
+footer ul {
+    padding-left: 20px;
+    list-style: none;
+    padding-top: 15px;
+    li {
+        padding-bottom: 10px;
+    }
+}
